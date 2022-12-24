@@ -44,6 +44,8 @@ return packer.startup(function (use)
     use "wbthomason/packer.nvim" -- Self-manages packer.nvm
     use "nvim-lua/popup.nvim" -- useful for other plugins
     use "nvim-lua/plenary.nvim" -- useful for other plugins
+    use "rstacruz/vim-closer" -- Better bracket closing
+    use {"iamcco/markdown-preview.nvim", run="cd app && yarn install" } -- Preview markdown files! Run :MarkdownPreview
 
     if PACKER_BOOTSTRAP then
         require("packer").sync()

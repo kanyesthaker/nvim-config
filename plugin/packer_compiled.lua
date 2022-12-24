@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -88,6 +93,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["vim-closer"] = {
+    loaded = true,
+    path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/vim-closer",
+    url = "https://github.com/rstacruz/vim-closer"
   }
 }
 
