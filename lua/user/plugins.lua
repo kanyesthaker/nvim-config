@@ -46,6 +46,17 @@ return packer.startup(function (use)
     use "nvim-lua/plenary.nvim" -- useful for other plugins
     use "rstacruz/vim-closer" -- Better bracket closing
     use {"iamcco/markdown-preview.nvim", run="cd app && yarn install" } -- Preview markdown files! Run :MarkdownPreview
+    
+    use "arcticicestudio/nord-vim" -- Nord colorscheme
+    
+    use "hrsh7th/nvim-cmp" -- overall completion plugin
+    use "hrsh7th/cmp-buffer" -- buffer completion
+    use "hrsh7th/cmp-path" -- path completion
+    use "hrsh7th/cmp-cmdline" -- commmandline completion
+    use "saadparwaiz1/cmp_luasnip" -- snippet completion
+
+    use "L3MON4D3/LuaSnip" -- Snippet engine
+    use "rafamadriz/friendly-snippets" -- More snippets
 
     if PACKER_BOOTSTRAP then
         require("packer").sync()
