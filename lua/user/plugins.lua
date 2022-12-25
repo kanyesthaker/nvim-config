@@ -54,9 +54,14 @@ return packer.startup(function (use)
     use "hrsh7th/cmp-path" -- path completion
     use "hrsh7th/cmp-cmdline" -- commmandline completion
     use "saadparwaiz1/cmp_luasnip" -- snippet completion
+    use "hrsh7th/cmp-nvim-lsp"
+    use "hrsh7th/cmp-nvim-lua"
 
     use "L3MON4D3/LuaSnip" -- Snippet engine
     use "rafamadriz/friendly-snippets" -- More snippets
+
+    use "neovim/nvim-lspconfig" -- Enable LSP
+    use "williamboman/nvim-lsp-installer" -- language server installer GUI
 
     if PACKER_BOOTSTRAP then
         require("packer").sync()
