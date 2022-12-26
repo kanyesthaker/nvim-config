@@ -51,8 +51,9 @@ return packer.startup(function (use)
     use "akinsho/bufferline.nvim" -- bufferline for better styled buffers
     use "moll/vim-bbye" -- make it easier to exit buffers without closing nvim 
     use "akinsho/toggleterm.nvim" -- toggle term
-    use {"iamcco/markdown-preview.nvim", run="cd app && yarn install" } -- Preview markdown files! Run :MarkdownPreview
-    
+    use {"iamcco/markdown-preview.nvim", run="cd app && yarn install" } -- Preview markdown files! Run :markdown-preview
+    use "goolord/alpha-nvim"
+    use "antoinemadec/FixCursorHold.nvim"
     use "arcticicestudio/nord-vim" -- Nord colorscheme
     
     use "hrsh7th/nvim-cmp" -- overall completion plugin
