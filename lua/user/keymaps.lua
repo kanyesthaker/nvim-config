@@ -33,6 +33,7 @@ km("n", "<S-h>", ":bprevious<CR>", opts)
 -- Fast exit from insert to normal mode
 km("i", "jk", "<ESC>", opts)
 km("v", "jk", "<ESC>", opts)
+km("n", "<leader>q", ":q!<cr>", opts)
 
 -- Indents in visual mode
 km("v", "<", "<gv", opts)
@@ -55,4 +56,9 @@ km("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
 km("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 km("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 km("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
+
+-- Telescope
+km("n", "<leader>f", "<cmd>Telescope live_grep<cr>", opts)
+km("n", "<leader>p", "<cmd>Telescope find_files<cr>", opts)
+km("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 

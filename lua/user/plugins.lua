@@ -44,7 +44,7 @@ return packer.startup(function (use)
     use "wbthomason/packer.nvim" -- Self-manages packer.nvm
     use "nvim-lua/popup.nvim" -- useful for other plugins
     use "nvim-lua/plenary.nvim" -- useful for other plugins
-    use "rstacruz/vim-closer" -- Better bracket closing
+    use "windwp/nvim-autopairs" -- Autoclose quotes, etc.
     use {"iamcco/markdown-preview.nvim", run="cd app && yarn install" } -- Preview markdown files! Run :MarkdownPreview
     
     use "arcticicestudio/nord-vim" -- Nord colorscheme
@@ -62,6 +62,17 @@ return packer.startup(function (use)
 
     use "neovim/nvim-lspconfig" -- Enable LSP
     use "williamboman/nvim-lsp-installer" -- language server installer GUI
+
+    -- Telescope 
+    use "nvim-telescope/telescope.nvim"
+    use 'nvim-telescope/telescope-media-files.nvim'
+
+    -- Treesitter
+    use {
+        "nvim-treesitter/nvim-treesitter",
+        run = ":TSUpdate",
+    }
+    use "p00f/nvim-ts-rainbow"
 
     if PACKER_BOOTSTRAP then
         require("packer").sync()
