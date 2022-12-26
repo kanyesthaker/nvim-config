@@ -18,7 +18,7 @@ km("n", "<C-j>", "<C-w>j", opts)
 km("n", "<C-k>", "<C-w>k", opts)
 
 -- Open Lexplore with <leader>e
-km("n", "<leader>e", ":Lex 30<CR>", opts)
+km("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Use arrows to resize windows
 km("n", "<C-Up>", ":resize +2<CR>", opts) 
@@ -60,7 +60,7 @@ km("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 km("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Telescope
-km("n", "<leader>f", "<cmd>Telescope live_grep<cr>", opts)
+km("n", "<leader>g", "<cmd>Telescope live_grep<cr>", opts)
 km("n", "<leader>p", "<cmd>Telescope find_files<cr>", opts)
 km("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 

@@ -46,6 +46,8 @@ return packer.startup(function (use)
     use "nvim-lua/plenary.nvim" -- useful for other plugins
     use "windwp/nvim-autopairs" -- Autoclose quotes, etc.
     use { "numToStr/Comment.nvim", config = function() require('Comment').setup() end } -- Easy commenting
+    use "kyazdani42/nvim-web-devicons"
+    use "kyazdani42/nvim-tree.lua"
     use {"iamcco/markdown-preview.nvim", run="cd app && yarn install" } -- Preview markdown files! Run :MarkdownPreview
     
     use "arcticicestudio/nord-vim" -- Nord colorscheme
