@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -170,11 +175,6 @@ _G.packer_plugins = {
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commenstring",
     url = "https://github.com/JoosepAlviste/nvim-ts-context-commenstring"
   },
-  ["nvim-ts-rainbow"] = {
-    loaded = true,
-    path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
-    url = "https://github.com/p00f/nvim-ts-rainbow"
-  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -204,6 +204,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-bbye"] = {
+    loaded = true,
+    path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/vim-bbye",
+    url = "https://github.com/moll/vim-bbye"
   }
 }
 

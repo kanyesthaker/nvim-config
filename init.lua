@@ -9,5 +9,6 @@ require "user.autopairs"
 require "user.comments"
 require "user.gitsigns"
 require "user.nvim-tree"
+require "user.bufferline"
 vim.cmd "colorscheme nord" 
 

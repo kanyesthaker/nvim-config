@@ -33,7 +33,7 @@ km("n", "<S-h>", ":bprevious<CR>", opts)
 -- Fast exit from insert to normal mode
 km("i", "jk", "<ESC>", opts)
 km("v", "jk", "<ESC>", opts)
-km("n", "<leader>q", ":q!<cr>", opts)
+km("n", "<leader>q", ":Bdelete!<cr>", opts)
 
 km("n", "<leader>s", ":w<cr>", opts)
 
