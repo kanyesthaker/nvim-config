@@ -49,7 +49,8 @@ return packer.startup(function (use)
     use "kyazdani42/nvim-web-devicons" -- Better icons for nvim-tree
     use "kyazdani42/nvim-tree.lua" -- nvim-tree
     use "akinsho/bufferline.nvim" -- bufferline for better styled buffers
-    use "moll/vim-bbye"
+    use "moll/vim-bbye" -- make it easier to exit buffers without closing nvim 
+    use "akinsho/toggleterm.nvim" -- toggle term
     use {"iamcco/markdown-preview.nvim", run="cd app && yarn install" } -- Preview markdown files! Run :MarkdownPreview
     
     use "arcticicestudio/nord-vim" -- Nord colorscheme
