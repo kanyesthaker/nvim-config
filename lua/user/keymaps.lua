@@ -35,6 +35,8 @@ km("i", "jk", "<ESC>", opts)
 km("v", "jk", "<ESC>", opts)
 km("n", "<leader>q", ":q!<cr>", opts)
 
+km("n", "<leader>s", ":w<cr>", opts)
+
 -- Indents in visual mode
 km("v", "<", "<gv", opts)
 km("v", ">", ">gv", opts)
