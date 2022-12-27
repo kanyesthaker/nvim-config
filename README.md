@@ -1,3 +1,3 @@
 # nvim-config
 
-neovim config, basically just ripped from https://github.com/LunarVim/Neovim-from-scratch/. Repo's just here to track my config changes since I didn't want to just fork the original.
+neovim config, 90% copied from https://github.com/LunarVim/Neovim-from-scratch/. Repo's here to track my custom plugins, keymaps, etc., since I wanted to write the config from scratch without starting from a fork of the original.
