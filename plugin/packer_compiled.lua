@@ -160,6 +160,11 @@ _G.packer_plugins = {
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
@@ -179,11 +184,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["nvim-ts-context-commenstring"] = {
-    loaded = true,
-    path = "/Users/kanyesthaker/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commenstring",
-    url = "https://github.com/JoosepAlviste/nvim-ts-context-commenstring"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
